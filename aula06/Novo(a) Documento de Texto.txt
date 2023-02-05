@@ -1,0 +1,8 @@
+para converter um numero que esta como string para number:
+
+usa o parseInt(>>)
+ou
+parseFloat(>>)
+e 
+Number ()
+ o Number faz as duas coisas ao msm tempo
