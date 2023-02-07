@@ -4,5 +4,17 @@ usa o parseInt(>>)
 ou
 parseFloat(>>)
 e 
-Number ()
+Number(oq quero converter)
  o Number faz as duas coisas ao msm tempo
+
+ para converter número em string :
+string(oq quero converter)
+oq eu quero converter.toString()
+
+//////////////////////////
+
+concatenação 
+'+ x +'
+ou
+placeholder
+${x}

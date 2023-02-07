@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tratamento de dados</title>
+
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        //outras formatações de strings
+        var nome = prompt('Qual é o seu nome')
+        document.write(`Seu nome tem ${nome.length} letras <br>`) //numero de letras na palavra
+        document.write(`seu nome em maiúsculo é ${nome.toUpperCase()} <br>`) //pra deixar em maiúsculo
+        document.write(`seu nome em minúsculo é ${nome.toLowerCase()} <br>`) //pra deixar em minúsculo
+
+        //formatação de Number 
+        var n1 = 1212.12
+        n1.toFixed(2)
+        n1.toFixed(2).replace('.', ',') //para trocar o ponto pela virgula no fim do número 
+        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})//para mudar o símbolo da moeda de cada país
+        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
+        
+    </script>
+</body>
+</html>
