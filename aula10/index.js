@@ -1,5 +1,5 @@
 
-/* operador "E" && verdadeiro de todas as expressões forem verdadeiras
+/* operador "E" && verdadeiro se todas as expressões forem verdadeiras
 
 let nota = prompt("digite sua nota")
 const media = 6
@@ -27,7 +27,7 @@ else{
 document.write('REPROVADO')
 }*/
 
-/* operador "negação" ! inverte o resultado da express~]ao de comparação
+/* operador "negação" ! inverte o resultado da expressao de comparação
 
 let nota = prompt("digite sua nota")
 const media = 6
